@@ -45,7 +45,7 @@ Send a POST request to the following endpoint:
 
         curl -X POST -H "Content-Type: application/json" -d '{"user":"user_value", "prompt":"prompt_value"}' http://<API_SERVER>/api/hybrid-credit
 
-Replace `user_value` and `prompt_value` with the desired user and prompt values.
+
 
 ### **API Response**
 - If the request is valid, the API will respond with a JSON object containing the same parameters:
